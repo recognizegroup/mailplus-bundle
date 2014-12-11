@@ -1,0 +1,23 @@
+{
+	"name": "recognize/mailplus-bundle",
+	"type": "symfony-bundle",
+	"description": "Symfony2 RecognizeMailplusBundle",
+	"keywords": ["recognize-mailplus-bundle", "RecognizeMailplusBundle"],
+	"homepage": "http://www.recognize.nl",
+	"authors": [
+		{
+			"name": "Nick Obermeijer",
+			"email": "nick@recognize.nl",
+			"homepage": "http://www.recognize.nl/"
+		}
+	],
+	"require": {
+		"recognize/extra-bundle": "dev-master",
+		"sensio/framework-extra-bundle": "~3.0"
+	},
+	"target-dir": "Recognize/MailplusBundle",
+	"autoload": {
+		"psr-0": { "Recognize\\MailplusBundle": "" }
+	},
+	"minimum-stability": "alpha"
+}
